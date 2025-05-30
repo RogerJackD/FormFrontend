@@ -1,0 +1,60 @@
+/* Estilo del formulario */
+.login-form {
+  padding: 8rem 6rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 550px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Título */
+.login-form h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+/* Campos de texto */
+.login-form input {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #4498ff;
+}
+
+/* Botón */
+.login-form button {
+  background-color: #0d61fd;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0d51c7;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
